@@ -1,0 +1,72 @@
+/* FileName: m_dj_ranting.cpp
+description : i am planning on making a program that going to be use to evaluate 
+the best dj in the us.
+date : 03/21/19
+*/
+
+#include <iostream>
+
+using namespace std;
+
+//prototype 
+void intro();
+void option(char&);// ask user what they wanna do.
+void allFunct(char);
+void getRanting(int[], string[], string[], int);
+void showRanting(int[], string[], string[], int);
+void dataLimit(int&)
+// function call
+
+const int Loc = 1 ;
+const int djName = 500;
+const int djRan = 1;
+int main()
+{
+    int ranting[SIZE];
+        djRanting[]
+    string djName[],
+           djLoc;
+           
+    char chooseOPt;
+    
+    intro();
+    option();
+    
+    allFunct(chooseOPt);
+    return 0;
+}
+
+void intro()
+{
+    cout << "\tDj's Best\n\n";
+    
+    return;
+}
+
+void option(string char& chooseOPt)
+{
+    cout << " Press \"S\" to see ranting "
+         << " or press \"R\" to rant a Dj\n\n";
+         cin << chooseOPt;
+         return;
+}
+void allFunct(char chooseOPt)
+{
+    switch(chooseOPt)
+    {
+        case 'S' :
+        case 's' : 
+        
+                break;
+        
+        case 'R' :
+        case 'r' : 
+                  getRanting(int[] djRanting, string[] djLoc, string[] djName);
+                break;
+    }
+    return ;
+}
+void getRanting(int[] djRanting, string[] djLoc, string[] djName);
+{
+    for (int i = 0; i <)
+}
