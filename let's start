@@ -47,7 +47,7 @@ void option(string char& chooseOPt)
 {
     cout << " Press \"S\" to see ranting "
          << " or press \"R\" to rant a Dj\n\n";
-         cin << chooseOPt;
+         cin >> chooseOPt;
          return;
 }
 void allFunct(char chooseOPt)
